@@ -46,49 +46,49 @@ B. A description for all relevant contents of this directory.
 
 ##B. File descriptions
 
-    1. Programs:
+###1. Programs:
 
-        a. Main program: 
+####a. Main program: 
 	
-#####scan3D.py - Calls other programs and creates a 3D point cloud
+    scan3D.py - Calls other programs and creates a 3D point cloud
 
-        b. Secondary programs:
+####b. Secondary programs:
 	
-#####calibrate.py - Calibrates the projector/camera setup using images in justPaper and justProj
+    calibrate.py - Calibrates the projector/camera setup using images in justPaper and justProj
 
-#####scanner.py - Runs one scan of the object
+    scanner.py - Runs one scan of the object
 
-#####PointCloudApp.py - Shows you a point cloud
+    PointCloudApp.py - Shows you a point cloud
 
-	c. Tertiary programs:
+####c. Tertiary programs:
 
-#####getpix.py - gets calibration images
+    getpix.py - gets calibration images
 
-#####textpix.py - tests calibration images
+    textpix.py - tests calibration images
 
-#####textbox.py - tests the framing of your object in the camera’s view
+    textbox.py - tests the framing of your object in the camera’s view
 
-    2. Other:
+###2. Other:
 
-#####README.txt - dis
+    README.txt - dis
 	
-#####chessboard.png - the projected chessboard image
+    chessboard.png - the projected chessboard image
 	
-#####justPaper - contains masked images of the paper calibration chessboard
+    justPaper - contains masked images of the paper calibration chessboard
 
-#####justProj - contains masked images of the projected calibration chessboard
+    justProj - contains masked images of the projected calibration chessboard
 
-#####finalTest.npz - a really great sample point cloud
+    finalTest.npz - a really great sample point cloud
 		
-#####twoCups.npz - a flawed sample point cloud
+    twoCups.npz - a flawed sample point cloud
 
-#####extras - a directory containing:
+    extras - a directory containing:
 
-######findrotation.py - unfinished rotation code
+        findrotation.py - unfinished rotation code
 
-######projcalib.py - the model for our calibration program
+        projcalib.py - the model for our calibration program
 		
-######readcsv.py - a program we used to parse cdv files of point data
+        readcsv.py - a program we used to parse cdv files of point data
 
 		
 
