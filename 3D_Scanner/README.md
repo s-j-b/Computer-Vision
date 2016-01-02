@@ -1,17 +1,19 @@
-Welcome to our 3-D Point Cloud Scanner! 
+#3D Scanner
 
-	Names: Simon J. Bloch and Gibson Cook
+Names: Simon J. Bloch and Gibson Cook
 
-	Class: Computer Vision - Spring 2015 - Swarthmore College
+Class: Computer Vision - Spring 2015 - Swarthmore College
 
-	Start Date: 5/1/2015
+Start Date: 5/1/2015
 
-	End Date: 5/15/2015
+End Date: 5/15/2015
 
-In this file, you will find:
+###Welcome to our 3-D Point Cloud Scanner!
 
-    A. Instructions for running our software
-	B. A description for all relevant contents of this directory.
+####In this file, you will find:
+
+A. Instructions for running our software
+B. A description for all relevant contents of this directory.
 
 A. Instructions
 
