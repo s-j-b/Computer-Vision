@@ -13,9 +13,10 @@ End Date: 5/15/2015
 ####In this file, you will find:
 
 A. Instructions for running our software
+
 B. A description for all relevant contents of this directory.
 
-A. Instructions
+##A. Instructions
 
     1. Create a projector-camera setup as described in our lab write-up. You must have a significant horizontal translation between the two. 
 
@@ -43,7 +44,7 @@ A. Instructions
 
     10. Enjoy the beauty of 3D. Ignore the unbeauty of noisy data.
 
-B. File descriptions
+##B. File descriptions
 
     1. Programs:
 
