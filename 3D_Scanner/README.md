@@ -15,25 +15,25 @@ In this file, you will find:
 
 A. Instructions
 
-    1. Create a projector-camera setup as described in our lab write-up. You must have a 	significant horizontal translation between the two. 
+    1. Create a projector-camera setup as described in our lab write-up. You must have a significant horizontal translation between the two. 
 
     2. Connect the setup to your computer.
 
-    3. Prepare your calibration board with both a printed chessboard and room for a 		projected chessboard. 
+    3. Prepare your calibration board with both a printed chessboard and room for a projected chessboard. 
 
     4. Run getpix.py:
 
         a. Take calibration pictures of your two-chessboard setup by pressing enter
 
-       	b. Make sure you slightly change the plane of the board to get substantially 		diverse data. 
+       	b. Make sure you slightly change the plane of the board to get substantially diverse data. 
 
-	    c. Keep your printed coordinates in the upper right hand corner, to keep a 		consistent coordinate space.
+	    c. Keep your printed coordinates in the upper right hand corner, to keep a consistent coordinate space.
 
-    5. justPaper and justProj should now have identical images in them. Mask out the 		relevant chessboard in each image to make the directory names honest.
+    5. justPaper and justProj should now have identical images in them. Mask out the relevant chessboard in each image to make the directory names honest.
 
-    6. Run textpix.py. It will tell you which images to delete. Delete this images from 	BOTH FOLDERS
+    6. Run textpix.py. It will tell you which images to delete. Delete this images from BOTH FOLDERS
 
-    7. Run testbox.py, and move your object-turntable setup so it sits within the viewable 	box.
+    7. Run testbox.py, and move your object-turntable setup so it sits within the viewable box.
 
     8. Run scan3D.py. Click the black screen and press enter. 
 
@@ -47,44 +47,45 @@ B. File descriptions
 
         a. Main program: 
 	
-		#####scan3D.py - Calls other programs and creates a 3D point cloud
+#####scan3D.py - Calls other programs and creates a 3D point cloud
 
         b. Secondary programs:
 	
-		#####calibrate.py - Calibrates the projector/camera setup using images in justPaper and justProj
+#####calibrate.py - Calibrates the projector/camera setup using images in justPaper and justProj
 
-        #####scanner.py - Runs one scan of the object
+#####scanner.py - Runs one scan of the object
 
-		#####PointCloudApp.py - Shows you a point cloud
+#####PointCloudApp.py - Shows you a point cloud
 
 	c. Tertiary programs:
 
-		#####getpix.py - gets calibration images
+#####getpix.py - gets calibration images
 
-		#####textpix.py - tests calibration images
+#####textpix.py - tests calibration images
 
-		#####textbox.py - tests the framing of your object in the camera’s view
+#####textbox.py - tests the framing of your object in the camera’s view
 
     2. Other:
-		#####README.txt - dis
+
+#####README.txt - dis
 	
-		#####chessboard.png - the projected chessboard image
+#####chessboard.png - the projected chessboard image
 	
-		#####justPaper - contains masked images of the paper calibration chessboard
+#####justPaper - contains masked images of the paper calibration chessboard
 
-		#####justProj - contains masked images of the projected calibration chessboard
+#####justProj - contains masked images of the projected calibration chessboard
 
-		#####finalTest.npz - a really great sample point cloud
+#####finalTest.npz - a really great sample point cloud
 		
-		#####twoCups.npz - a flawed sample point cloud
+#####twoCups.npz - a flawed sample point cloud
 
-		#####extras - a directory containing:
+#####extras - a directory containing:
 
-			#####findrotation.py - unfinished rotation code
+######findrotation.py - unfinished rotation code
 
-			#####projcalib.py - the model for our calibration program
+######projcalib.py - the model for our calibration program
 		
-			#####readcsv.py - a program we used to parse cdv files of point data
+######readcsv.py - a program we used to parse cdv files of point data
 
 		
 
