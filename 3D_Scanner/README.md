@@ -1,12 +1,9 @@
 #3D Scanner
 
-Names: Simon J. Bloch and Gibson Cook
-
-Class: Computer Vision - Spring 2015 - Swarthmore College
-
-Start Date: 5/1/2015
-
-End Date: 5/15/2015
+#####Names: Simon J. Bloch and Gibson Cook
+#####Class: Computer Vision - Spring 2015 - Swarthmore College
+#####Development Timeline: 5/1/2015 - 5/15/2015
+#####Last Updated: 1/12/2016
 
 ###Welcome to our 3-D Point Cloud Scanner!
 
